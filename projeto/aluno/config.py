@@ -1,0 +1,1 @@
+NOME_PROJETO = 'Sistema Escolar - Horizonte Sustentável'

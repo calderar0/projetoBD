@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistema Escolar</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Projeto de Banco de Dados</h1>
+    </div>
+    <hr>
+    <h3>Este projeto consiste na criação de um Banco de Dados para a fixação e complementar o conteúdo passado durante o semestre</h3>
+    <div class="objetivo">
+        <h3>Objetivo:</h3>
+        <p>Desenvolver um sistema escolar para gerenciar alunos, professores, turmas e disciplinas.</p>
+    </div>
+    <div>
+        <h3>Alunos: </h3>
+        <div>
+            <p>Aryssa Shikibu - RA: 168743</p>
+            <p>Felipe Soares Calderaro - RA: 168843</p>
+            <p>Isabella Maria Ribeiro - RA: 168870</p>
+            <p>Katherine Mombach Van Den Mosselaar - RA: 163873</p>
+        </div>
+    </div>
+    <br>
+<hr>
+    <h2>Tabela Aluno</h2>
+
+    <button onclick="toggleTabela()">Lista de Alunos</button>
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Turma</th>
+                <th>CPF</th>
+                <th>Nacionalidade</th>
+                <th>Endereço</th>
+                <th>Telefone</th>
+                <th>Turma</th>
+            </tr>
+        </thead>
+        <tbody id="aluno">
+        </tbody>
+    </table>
+
+
+    <script src="conexao.js"></script> 
+</body>
+</html>
